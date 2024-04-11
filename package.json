@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "prod1": "yarn run production",
+        "production": "mix --production"
+    },
+    "dependencies": {
+        "axios": "^1.6.8",
+        "bootstrap-sass": "^3.4.3",
+        "jquery": "^3.7.1",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "hammerjs": "^2.0.8",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.74.1",
+        "sass-loader": "^12.1.0",
+        "vue": "^3.4.21",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4",
+        "webpack-merge": "^5.10.0"
+    }
+}
