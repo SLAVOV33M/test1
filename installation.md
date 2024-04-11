@@ -9,9 +9,14 @@
 <pre>
 git clone project-url
 cd project-url
+
 composer install
+
+
 npm install
 npm run watch
+
+
 php artisan serve
 php artisan migrate
 php artisan db:seed
