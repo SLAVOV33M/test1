@@ -61,7 +61,7 @@
                                 <div class="col-md-12">
                             <div class="form-group">
                                 {!! Form::label('link', 'Link', ['class' => 'control-label']); !!}
-                                    {!! Form::text('link', '', ['class' => 'form-control', 'placeholder' => 'xat.com/OceanProject']) !!}
+                                    {!! Form::text('link', '', ['class' => 'form-control', 'placeholder' => 'xat.com/BulBot']) !!}
                                     @if ($errors->has('link'))
                                         <ul class="parsley-errors-list filled">
                                             <li class="parsley-required">{{ $errors->first('link') }}</li>

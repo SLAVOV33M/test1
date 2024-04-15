@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ env('NAME') }} - xat Bot Service Provider">
-    <meta name="author" content="Guillaume">
+    <meta name="author" content="BulBot">
 
     <title>{{ env('NAME') }}</title>
 
@@ -39,14 +39,14 @@
       <div class="container"> 
         <div class="pull-left"> 
           <div class="email">
-            <a href="https://xat.com/OceanProject" target="_blank">
+            <a href="https://xat.com/BulBot" target="_blank">
               <i class=" ti-email"></i> {{ env('NAME') }}
             </a>
           </div>
         </div>
         <div class="pull-right"> 
           <ul class="top_socials"> 
-            <li><a href="https://github.com/llomgui/xatbot-Website"><i class=" ti-github"></i></a></li>
+            <li><a href="https://xatbot.eu"><i class=" ti-github"></i></a></li>
           </ul> 
         </div>
         <div class="clear"></div>
@@ -124,7 +124,7 @@
       <div class="row">
         <div class="col-sm-12 text-center">
           <h2 class="title zoomIn animated wow" data-wow-delay=".1s">How It Works ?</h2>
-          <p class="sub-title zoomIn animated wow" data-wow-delay=".2s">Assign the power bot to your xat chat and set it up with the xat ID 10101. Then register on this site to set up your bot! <a href="{{ route('setupbot') }}">Tutorials</a> are available in multiple languages! If you still need help, visit our chat <a href="//xat.com/OceanProject">here</a> and our team of helpers will be happy to assist you!</p>
+          <p class="sub-title zoomIn animated wow" data-wow-delay=".2s">Assign the power bot to your xat chat and set it up with the xat ID 10101. Then register on this site to set up your bot! <a href="{{ route('setupbot') }}">Tutorials</a> are available in multiple languages! If you still need help, visit our chat <a href="//xat.com/BulBot">here</a> and our team of helpers will be happy to assist you!</p>
         </div> 
       </div>
       <!--

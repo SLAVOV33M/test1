@@ -14,8 +14,8 @@ composer install
 
 
 npm install
-npm run watch
 
+php artisan key:generate
 
 php artisan serve
 php artisan migrate
